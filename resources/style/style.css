@@ -1,0 +1,213 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(160, 55, 205), rgb(60, 125, 240));
+}
+
+/*Inicio Header*/
+.header-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 4%;
+    min-width: 40px;
+    margin-left: 6%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 44%;
+    margin-left: 30%;
+}
+
+.menu a {
+    font-size: 115%;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:not(:last-child) {
+    margin-right: 15%;
+}
+
+.btn-ad {
+    width: 13%;
+    height: 32px;
+    color: rgb(51, 51, 51);
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+}
+
+/*Fim Header*/
+
+/* Inicio Section 1*/
+#sec-1 {
+    height: 99%;
+    z-index: 999;
+}
+
+.product-container {
+    width: 100%;
+    display: flex;
+}
+
+.text {
+    width: 40%;
+    margin-left: 6%;
+    z-index: 999;
+}
+
+.text h1 {
+    font-size: 320%;
+    margin-top: 30%;
+    color: rgba(255, 255, 255, 0.900);
+}
+
+.text h4 {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.700);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.saiba-mais {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+.saiba-mais a {
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.product-image {
+    width: 50%;
+    min-width: 700px;
+    margin-top: 100px;
+    text-align: center;
+    z-index: 999;
+}
+
+.product-image img {
+    width: 80%;
+}
+
+.waves {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.waves img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+/*Fim Section 1*/
+
+/* Inicio Section 2*/
+#sec-2 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.info-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.info {
+    width: 33.33%;
+    text-align: center;
+}
+
+.info img {
+    width: 10%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.info h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+.info h4 {
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(61, 61, 61);
+}
+
+#sec-3 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.health-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.watch-black {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.watch-black img {
+    width: 50%;
+    min-width: 250px;
+}
+
+.health-text {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.health-text img {
+    width: 15%;
+    margin-bottom: 15px;
+}
+
+.health-text #hc-2 {
+    width: 15%;
+    margin-top: 150px;
+}
+
+/*Fim Section 2*/
